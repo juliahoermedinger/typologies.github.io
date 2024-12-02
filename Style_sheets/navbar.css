@@ -1,0 +1,152 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+/* ul in navbar*/
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*from left to right*/
+.navbar li {
+    float: left;
+}
+
+/*text*/
+a {
+    padding: 15px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/*underline Home button*/
+.homeButton:after {
+    content: "";
+    position: absolute;
+    background-color: hsl(38, 100%, 67%);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.homeButton:hover:after {
+    width: 100%;
+    color: white;
+}
+/*underline Typings*/
+.typingsButton:after {
+    content: "";
+    position: absolute;
+    background-color: hsl(194, 100%, 84%);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.typingsButton:hover:after {
+    width: 100%;
+    color: white;
+}
+
+/*underline MBTI*/
+.MBTIButton:after {
+    content: "";
+    position: absolute;
+    background-color: hsl(278, 100%, 84%);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.MBTIButton:hover:after {
+    width: 100%;
+    color: white;
+}
+
+/*underline Enneagram*/
+.enneagramButton:after {
+    content: "";
+    position: absolute;
+    background-color: hsl(116, 100%, 84%);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.enneagramButton:hover:after {
+    width: 100%;
+    color: white;
+}
+
+#welcomeMessage{
+    text-align: center;
+    animation-name: rainbow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: 25px;
+    background-color: black;
+    padding: 5px;
+    margin-left: 400px;
+}
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+    25% {
+        color: yellow;
+    }
+    75% {
+        color: blue;
+    }
+    60%{
+        color: indigo;
+    }
+    85%
+    {
+        color: purple;
+    }
+    100%{
+        color: red;
+    }
+}
+#name{
+    color: white;
+    padding: 5px;
+    margin-left: 350px;
+}

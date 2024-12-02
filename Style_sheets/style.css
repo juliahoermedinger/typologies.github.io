@@ -1,0 +1,60 @@
+:root{
+    --myHeight: 1000px;
+    --myWidth: 200px;
+}
+body{
+    margin: 0px;
+    background-color: #fffffb;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 0%);
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+div{
+    height: var(--myHeight);
+    /*background-color: #fffffb;*/
+    background-color: white;
+    border-radius:20px;
+    padding: 50px;
+    margin-top: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+div:hover{
+    transform: scale(1.005);
+}
+.Enneagram1Text{
+    text-align: right;
+}
+
+
+
