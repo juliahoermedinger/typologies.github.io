@@ -3,13 +3,14 @@
     --myWidth: 1630px;
 }
 body{
-    background-color: #D3D3D3;
+    background-color: white;
     /*font-family: 'Comic Neue', cursive;*/
     font-family: 'Luckiest Guy', cursive;
+    color: white;
 }
 .containers{
      height: var(--myHeight);
-     background-color: white;
+     background-color: #2a2a37;
      border-radius:20px;
      padding: 50px;
     margin-top: 10px;
