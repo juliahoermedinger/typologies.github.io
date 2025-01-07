@@ -11,7 +11,6 @@
     box-sizing: border-box;
     background-color: black;
 }
-
 .navbar-container{
     display: flex;
     align-items: center;
@@ -35,8 +34,8 @@
     float: left;
 }
 
-/*text*/
-a {
+/*buttons*/
+.TypologiesButton {
     padding: 15px;
     display: block;
     position: relative;
@@ -45,6 +44,77 @@ a {
     color: whitesmoke;
     font-weight: bold;
     letter-spacing: 0.5px;
+    background-color: #9bd1c5;
+}
+
+.enneagramButton {
+    padding: 15px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #ffeeac;
+}
+
+.TestsButton {
+    padding: 15px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #b68164;
+}
+
+.jungianButton {
+    padding: 15px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #ea7edc;
+}
+
+.MBTIButton {
+    padding: 15px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #76a56c;
+}
+.typingsButton {
+    padding: 15px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #5099f8;
+}
+.homeButton {
+    padding: 15px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #bf9fff;
 }
 
 /*underline Home button*/
@@ -114,13 +184,64 @@ a {
     color: white;
 }
 
+/*underline Jungian*/
+.jungianButton:after {
+    content: "";
+    position: absolute;
+    background-color: hsl(116, 100%, 84%);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.jungianButton:hover:after {
+    width: 100%;
+    color: white;
+}
+
+/*underline Typologies*/
+.TypologiesButton:after {
+    content: "";
+    position: absolute;
+    background-color: hsl(116, 100%, 84%);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.TypologiesButton:hover:after {
+    width: 100%;
+    color: white;
+}
+
+/*underline Tests*/
+.TestsButton:after {
+    content: "";
+    position: absolute;
+    background-color: hsl(116, 100%, 84%);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.TestsButton:hover:after {
+    width: 100%;
+    color: white;
+}
+
 #welcomeMessage{
     text-align: center;
     animation-name: rainbow;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     font-size: 25px;
-    background-color: black;
+    background-color: #000000;
     padding: 5px;
     margin-left: 400px;
 }
