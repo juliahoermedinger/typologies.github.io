@@ -2,11 +2,38 @@
     --myHeight: 1000px;
     --myWidth: 1630px;
 }
+article{
+    color: black;
+}
 body{
     background-color: white;
     /*font-family: 'Comic Neue', cursive;*/
     font-family: 'Luckiest Guy', cursive;
     color: white;
+}
+.bold-text{
+    font-weight: bold;
+}
+.italic-text{
+    font-style: italic;
+    font-size: small;
+}
+.pics{
+    max-width: 150px;
+    height: auto;
+    border-radius:20px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+div ul{
+    margin-left: 50px;
+}
+.paragraph{
+    color: #2a2a37;
+}
+p{
+    font-size: larger;
 }
 .containers{
      height: var(--myHeight);
@@ -29,5 +56,17 @@ h2{
 }
 .quote{
     font-style: italic;
+    font-size: 20px;
+}
+.Warning{
+    font-style: italic;
     font-size: 30px;
+    color: red;
+    align-items: center;
+}
+.example{
+    font-weight: bold;
+}
+.largeParagraph{
+    margin: 20px;
 }
