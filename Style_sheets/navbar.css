@@ -10,6 +10,10 @@
     width: 100%;
     box-sizing: border-box;
     background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 .navbar-container{
     display: flex;
@@ -36,82 +40,82 @@
 
 /*buttons*/
 .TypologiesButton {
-    padding: 15px;
+    padding: 17px;
     display: block;
     position: relative;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-weight: bold;
     letter-spacing: 0.5px;
     background-color: #9bd1c5;
 }
 
 .enneagramButton {
-    padding: 15px;
+    padding: 17px;
     display: block;
     position: relative;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-weight: bold;
     letter-spacing: 0.5px;
     background-color: #ffeeac;
 }
 
 .TestsButton {
-    padding: 15px;
+    padding: 17px;
     display: block;
     position: relative;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-weight: bold;
     letter-spacing: 0.5px;
     background-color: #b68164;
 }
 
 .jungianButton {
-    padding: 15px;
+    padding: 17px;
     display: block;
     position: relative;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-weight: bold;
     letter-spacing: 0.5px;
     background-color: #ea7edc;
 }
 
 .MBTIButton {
-    padding: 15px;
+    padding: 17px;
     display: block;
     position: relative;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-weight: bold;
     letter-spacing: 0.5px;
     background-color: #76a56c;
 }
 .typingsButton {
-    padding: 15px;
+    padding: 17px;
     display: block;
     position: relative;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-weight: bold;
     letter-spacing: 0.5px;
     background-color: #5099f8;
 }
 .homeButton {
-    padding: 15px;
+    padding: 16px;
     display: block;
     position: relative;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-weight: bold;
     letter-spacing: 0.5px;
     background-color: #bf9fff;
@@ -133,6 +137,7 @@
     width: 100%;
     color: white;
 }
+
 /*underline Typings*/
 .typingsButton:after {
     content: "";
@@ -234,7 +239,8 @@
     width: 100%;
     color: white;
 }
-
+s
+/*Home*/
 #welcomeMessage{
     text-align: center;
     animation-name: rainbow;
