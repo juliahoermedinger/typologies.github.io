@@ -1,6 +1,7 @@
 :root{
-    --myHeight: 1000px;
-    --myWidth: 1630px;
+    --myHeight: 1600px;
+    /*--myWidth: 1630px;*/
+    --myWidth: 50%;
 }
 article{
     color: black;
@@ -40,12 +41,11 @@ p{
      background-color: #2a2a37;
      border-radius:20px;
      padding: 50px;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin: 20px;
     width: var(--myWidth);
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
  }
-.containers:hover{
+.outside:hover{
     transform: scale(1.005);
 }
 h1{
@@ -63,10 +63,40 @@ h2{
     font-size: 30px;
     color: red;
     align-items: center;
+    padding-top: 50px;
 }
 .example{
     font-weight: bold;
 }
 .largeParagraph{
     margin: 20px;
+}
+.containerGerman{
+    height: var(--myHeight);
+    background-color: #2a2a37;
+    border-radius:20px;
+    padding: 50px;
+    margin-top: 50px;
+    width: var(--myWidth);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    float: right;
+}
+.containersGerman:hover{
+    transform: scale(1.005);
+}
+.introduction{
+    height: 500px;
+    background-color: #2a2a37;
+    border-radius:20px;
+    padding: 50px;
+    margin-top: 60px;
+    margin-left: 30px;
+    width: var(--myWidth);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.tests{
+    color: grey;
+}
+.outside{
+    display: flex;
 }
