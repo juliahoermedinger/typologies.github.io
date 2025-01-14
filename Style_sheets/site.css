@@ -8,9 +8,10 @@ main{
     padding: 2rem;
 }
 .foreground{
-    background: linear-gradient(to bottom, grey, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-align: center;
+    color: white;
+    font: 3rem "Times New Roman", serif;
+    padding-top: 7rem;
 }
 #Welcome{
     padding-top: 2rem;
