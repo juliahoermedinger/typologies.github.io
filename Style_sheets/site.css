@@ -1,102 +1,38 @@
-:root{
-    --myHeight: 1600px;
-    /*--myWidth: 1630px;*/
-    --myWidth: 50%;
+main{
+    margin-top: 4rem;
 }
-article{
-    color: black;
+.container{
+    width: 100%;
+    height: 30rem;
+    background-color: #404040;
+    padding: 2rem;
 }
-body{
-    background-color: white;
-    /*font-family: 'Comic Neue', cursive;*/
-    font-family: 'Luckiest Guy', cursive;
-    color: white;
+.foreground{
+    background: linear-gradient(to bottom, grey, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.bold-text{
-    font-weight: bold;
-}
-.italic-text{
-    font-style: italic;
-    font-size: small;
-}
-.pics{
-    max-width: 150px;
-    height: auto;
-    border-radius:20px;
-    float: right;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-div ul{
-    margin-left: 50px;
-}
-.paragraph{
-    color: #2a2a37;
-}
-p{
-    font-size: larger;
-}
-.containers{
-     height: var(--myHeight);
-     background-color: #2a2a37;
-     border-radius:20px;
-     padding: 50px;
-    margin: 20px;
-    width: var(--myWidth);
-     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
- }
-.outside:hover{
-    transform: scale(1.005);
-}
-h1{
+#Welcome{
+    padding-top: 2rem;
+    animation: rainbow 1s infinite linear alternate-reverse;
+    height: 8rem;
+    width: 100%;
+    color: #000000;
+    text-shadow: 1px 1px 2px #000000;
     text-align: center;
+    font-size: 4rem;
 }
-h2{
-    margin-left: 15px;
+@keyframes rainbow {
+    0% { background-color: lightcoral; }
+    50% { background-color: lightblue; }
+    100% { background-color: lightgreen; }
 }
-.quote{
-    font-style: italic;
-    font-size: 20px;
+.spaceBetween1{
+    margin-top: 5rem;
+    height: 2rem;
+    width: 100%;
 }
-.Warning{
-    font-style: italic;
-    font-size: 30px;
-    color: red;
-    align-items: center;
-    padding-top: 50px;
-}
-.example{
-    font-weight: bold;
-}
-.largeParagraph{
-    margin: 20px;
-}
-.containerGerman{
-    height: var(--myHeight);
-    background-color: #2a2a37;
-    border-radius:20px;
-    padding: 50px;
-    margin-top: 50px;
-    width: var(--myWidth);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    float: right;
-}
-.containersGerman:hover{
-    transform: scale(1.005);
-}
-.introduction{
-    height: 500px;
-    background-color: #2a2a37;
-    border-radius:20px;
-    padding: 50px;
-    margin-top: 60px;
-    margin-left: 30px;
-    width: var(--myWidth);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-.tests{
-    color: grey;
-}
-.outside{
-    display: flex;
+.spaceBetween2{
+    height: 2rem;
+    width: 100%;
 }
